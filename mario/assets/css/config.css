@@ -1,0 +1,27 @@
+/* reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+:root {
+    /* parametros de tamanho */
+    --pipe-width: 60px; 
+    --mario-width: 120px;
+
+    /* parametros de animação */
+    --mario-floor: 0px;
+    --mario-jump: 180px;
+    --pipe-time: 1s; 
+
+    /* parametros de colisão */
+    --tube-colision-distance: 120px; 
+}
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+/* Animação do tubo */
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: var(--pipe-width);
+    animation: pipe-animation var(--pipe-time) infinite linear;
+    /* left: var(--tube-colision-distance); */
+}
+
+@keyframes pipe-animation {
+    from {
+        right: calc(-1 * var(--pipe-width));
+    }
+    to {
+        right: 100%;
+    }
+}

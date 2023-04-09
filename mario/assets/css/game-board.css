@@ -1,0 +1,9 @@
+.game-board {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(29, 238, 29);
+    margin: 70px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#1fc2f9, #e0f6ff);
+}

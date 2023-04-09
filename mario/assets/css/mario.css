@@ -1,0 +1,8 @@
+/* Animação mario */
+.mario {
+    width: var(--mario-width);
+    height: var(--mario-width);
+    position: absolute;
+    bottom: var(--mario-floor);
+    /* bottom: 75px; */
+}
